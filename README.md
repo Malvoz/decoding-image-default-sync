@@ -41,7 +41,7 @@ Feature-Policy: decoding-image-default-sync 'self' https://example.com
 ```
 would imply asynchronous decoding for all `<img>`s from origins other than `self` and `https://example.com` that do not explicitly set
 `decoding="sync"`.
-<!--(!)-->
+
 Similarly, the feature could be set through the `allow` attribute of an inline frame:
 ```HTML
 <iframe src="https://example.com" allow="decoding-image-default-sync 'none'"></iframe>
