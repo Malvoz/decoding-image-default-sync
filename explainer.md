@@ -1,7 +1,3 @@
-https://github.com/w3c/webappsec-feature-policy/pull/332
-
-<hr>
-
 `decoding-image-default-sync` Policy
 ===========
 
